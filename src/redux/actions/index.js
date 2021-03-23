@@ -5,4 +5,11 @@ export const formVal = (value) => {
     }
 }
 
+export const isValidation = () => {
+    return {
+        type:'IS_VALID',
+       
+    }
+}
+
 export default formVal
